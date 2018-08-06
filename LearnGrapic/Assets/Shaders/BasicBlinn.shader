@@ -1,4 +1,4 @@
-﻿Shader "MyShader/BasicLambert" {
+﻿Shader "MyShader/BasicBlinn" {
 	Properties{
 		_Color("Color", Color) = (1,1,1,1)
 		_SpecColor("Specular Color", Color) = (1,1,1,1)
@@ -11,7 +11,7 @@
 		}
 
 		CGPROGRAM
-		#pragma surface surf Lambert
+		#pragma surface surf BlinnPhong
 
 		float4 _Color;
 		fixed _Spec;
