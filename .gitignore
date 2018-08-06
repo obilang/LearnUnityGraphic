@@ -2,7 +2,10 @@
 #  Unity Generated Files  #
 ###########################
 LearnGrapic/Library/
+LearnGrapic/Temp/
+LearnGrapic/obj/
 
 ######################
 # VS Generated Files #
 ######################
+LearnGrapic/.vs/
