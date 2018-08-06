@@ -16,6 +16,7 @@
 			float h = diff * 0.5 + 0.5;
 			float2 rh = h;
 			float3 ramp = tex2D(_RampTex, rh).rgb;
+			
 
 			float4 c;
 			c.rgb = s.Albedo * _LightColor0.rgb * (ramp);
