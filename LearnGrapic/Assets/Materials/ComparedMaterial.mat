@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: ComparedMaterial
-  m_Shader: {fileID: 4800000, guid: 264d5bb7c93b76a489325704bd7c5fcb, type: 3}
+  m_Shader: {fileID: 4800000, guid: a20bf68a7b07a5c4f831d2ba91a1d061, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -76,6 +76,7 @@ Material:
     - _Metallic: 1
     - _Mode: 0
     - _OcclusionStrength: 1
+    - _Outline: 0.0595
     - _Parallax: 0.02
     - _RimPower: 4.05
     - _ShowDecal: 0
@@ -88,5 +89,6 @@ Material:
     m_Colors:
     - _Color: {r: 0.6132076, g: 0.6132076, b: 0.6132076, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OutlineColor: {r: 0.504717, g: 0.94461215, b: 1, a: 1}
     - _RimColor: {r: 0, g: 0.5, b: 0.5, a: 0}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
